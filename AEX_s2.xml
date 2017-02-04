@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<manifest>
-  <project path="device/leeco/s2" name="LineageOS/android_device_leeco_s2" remote="github" revision="cm-14.1" />
-  <project path="vendor/leeco" name="TheMuppets/proprietary_vendor_leeco" remote="github" revision="cm-14.1" />
-  <project path="kernel/leeco/msm8976" name="LineageOS/android_kernel_leeco_msm8976" remote="github" revision="cm-14.1" />
-</manifest>
