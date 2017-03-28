@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  <remove-project name="DirtyUnicorns/android_packages_apps_CalendarWidget" />
+  <remove-project name="platform/packages/apps/Calendar" />
+
+  <!-- Tomato -->
   <project path="device/yu/tomato" name="shrukul/android_device_yu_tomato" remote="github" revision="aex-test" />
   <project path="device/cyanogen/msm8916-common" name="shrukul/android_device_cyanogen_msm8916-common" remote="github" revision="aex-test" />
   <project path="vendor/yu" name="shrukul/proprietary_vendor_yu" remote="github" revision="aex-test" />
-  <project path="kernel/cyanogen/msm8916" name="RiteshSaxena/Reloaded_tomato" remote="github" revision="stock-latest" />
+  <project path="kernel/cyanogen/msm8916" name="RiteshSaxena/Reloaded_tomato" remote="github" revision="stock" />
   <project path="hardware/cyanogen" name="LineageOS/android_hardware_cyanogen" remote="github" revision="cm-14.1" />
   <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="cm-14.1" />
 </manifest>
